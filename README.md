@@ -1,18 +1,20 @@
-#Microserviço de autenticação com Nodejs! 😉🔨🔧
+# Microserviço de autenticação com Nodejs
 
-##Composição do projeto
-Neste projeto Temos alguns Endpoints Base que podem ser extendidos da forma mais adequada para seu contexto.
+## Composição do projeto
+
+Neste projeto Temos alguns **Endpoints Base** que podem ser extendidos da forma mais adequada para seu contexto. 
+
 São eles:
 
-Usuários
+### Usuários
 
-GET /users
-GET /users/:uuid
-POST /users
-PUT /users/:uuid
-DELETE /users/:uuid
+* GET /users
+* GET /users/:uuid
+* POST /users
+* PUT /users/:uuid
+* DELETE /users/:uuid
 
-Autenticação
+### Autenticação
 
-POST /token
-POST /token/validate
+* POST /token
+* POST /token/validate
